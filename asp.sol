@@ -592,8 +592,8 @@ contract GlobalsAndUtility is ERC20 {
     /* Suns per Satoshi = 10,000 * 1e8 / 1e8 = 1e4 */
     uint256 private constant SUNS_PER_ASP = 10 ** uint256(decimals); // 1e8
 
-    /* Time of contract launch (01-16-2022 T00:00:00Z) */
-    uint256 internal constant LAUNCH_TIME = 1642383007;
+    /* Time of contract launch (02-16-2022 T00:00:00Z) */
+    uint256 internal constant LAUNCH_TIME = 1644991200;
 
     /* Start of claim phase */
     uint256 internal constant PRE_CLAIM_DAYS = 1;
